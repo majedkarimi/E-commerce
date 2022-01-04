@@ -1,0 +1,28 @@
+/*--------------------------------------------------------
+    #General
+----------------------------------------------------------*/
+
+// fonts vazir
+@font-face {
+    font-family: 'iransans';
+    src:
+     url('assets/fonts/IRANSansWeb.ttf'), format('trutype'),
+    url('assets/fonts/IRANSansWeb.woff'), format('woff');
+}
+// google fonts 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ // font-family: 'Noto Sans Arabic', sans-serif;
+*,
+body {
+    direction: rtl;
+    font-family: 'iransans';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// colors 
+$bg-hedaer:#232f3e;
+
+// imports
+@import '_header';

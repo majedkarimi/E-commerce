@@ -1,0 +1,68 @@
+/*--------------------------------------------------------
+    #General
+----------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: 'iransans';
+  src: url("assets/fonts/IRANSansWeb.ttf"), format("trutype"), url("assets/fonts/IRANSansWeb.woff"), format("woff");
+}
+
+*,
+body {
+  direction: rtl;
+  font-family: 'iransans';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*--------------------------------------------------------
+    # Header
+----------------------------------------------------------*/
+.header {
+  background-color: #232f3e;
+}
+
+.header .topbar {
+  font-size: 14px;
+}
+
+.header .topbar p {
+  padding: auto;
+}
+
+.header .topbar nav a {
+  color: #fff;
+  border-color: #555555 !important;
+}
+
+.header .search {
+  margin-top: 23px;
+}
+
+.header .search .card-head-cstm {
+  padding: auto;
+}
+
+.header .search .card-head-cstm .card-item-cstm {
+  min-width: 14rem;
+}
+
+.header .search .card-head-cstm .card-item-cstm li {
+  list-style: none;
+}
+
+.header .search .card-head-cstm .card-item-cstm li a {
+  font-size: 12px;
+}
+
+.header .search .card-head-cstm .card-item-cstm li a figure {
+  width: 50px;
+    }
+
+
+.header .search .card-head-cstm .card-item-cstm li a figure img {
+  max-width: 100%;
+  height: auto;
+}

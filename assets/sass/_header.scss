@@ -1,0 +1,55 @@
+/*--------------------------------------------------------
+    # Header
+----------------------------------------------------------*/
+.header {
+    background-color: $bg-hedaer;
+
+    //topbar section
+    .topbar {
+        font-size: 14px;
+
+        p {
+            padding: auto;
+        }
+
+        nav {
+            a {
+                color: #fff;
+                border-color: #555555 !important;
+                ;
+            }
+        }
+    }
+
+    //search and card section
+    .search {
+        margin-top: 23px;
+
+        //card section
+        .card-head-cstm {
+            padding: auto;
+
+            .card-item-cstm {
+                min-width: 14rem;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        font-size: 12px;
+
+                        figure {
+                            width: 50px;
+
+                            img {
+                                max-width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "bootstrap project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
