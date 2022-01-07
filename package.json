@@ -6,9 +6,17 @@
   "scripts": {
     "compile:sass": "node-sass assets/sass/main.scss assets/css/style.css -w"
   },
-  "author": "",
+  "author": "majed karimi",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majedkarimi/E-commerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/majedkarimi/E-commerce/issues"
+  },
+  "homepage": "https://github.com/majedkarimi/E-commerce#readme"
 }

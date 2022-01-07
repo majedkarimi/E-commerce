@@ -52,4 +52,13 @@
             }
         }
     }
+    .menus{
+        padding: auto;
+        .dropup, .dropend, .dropdown, .dropstart {
+            position: unset; 
+        }
+        .dropdown-menu{
+            width: 100%;
+        }
+    }
 }
