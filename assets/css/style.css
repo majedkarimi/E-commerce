@@ -47,3 +47,5 @@ body {
       position: unset; }
     .header .menus .dropdown-menu {
       width: 100%; }
+    .header .menus .log-in {
+      color: #ffc107 !important; }
