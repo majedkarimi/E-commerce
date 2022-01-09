@@ -43,9 +43,25 @@ body {
                 height: auto; }
   .header .menus {
     padding: auto; }
-    .header .menus .dropup, .header .menus .dropend, .header .menus .dropdown, .header .menus .dropstart {
+    .header .menus .dropup,
+    .header .menus .dropend,
+    .header .menus .dropdown,
+    .header .menus .dropstart {
       position: unset; }
     .header .menus .dropdown-menu {
       width: 100%; }
     .header .menus .log-in {
       color: #ffc107 !important; }
+    .header .menus .dropdown-menu-cstm a {
+      color: #000;
+      transition: all 0.2s ease-in-out; }
+      .header .menus .dropdown-menu-cstm a:hover {
+        margin-right: 5px;
+        color: #0d6efd; }
+    .header .menus .dropdown-menu-cstm figure {
+      align-self: flex-end;
+      margin: unset; }
+      .header .menus .dropdown-menu-cstm figure img {
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto; }
