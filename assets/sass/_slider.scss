@@ -1,3 +1,19 @@
 /*--------------------------------------------------------
     # Slider
 ----------------------------------------------------------*/
+.slider{
+    margin-top: 2rem;
+    .slider-item-2{
+        width: 21%;
+    }
+    .slider-item-3{
+        width: 20%;
+        figure{
+            display: flex;
+            flex-direction: column;
+            .mb-cstm{
+                margin-bottom: 20%;
+            } 
+        }
+    }
+}

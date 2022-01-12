@@ -69,3 +69,14 @@ body {
 /*--------------------------------------------------------
     # Slider
 ----------------------------------------------------------*/
+.slider {
+  margin-top: 2rem; }
+  .slider .slider-item-2 {
+    width: 21%; }
+  .slider .slider-item-3 {
+    width: 20%; }
+    .slider .slider-item-3 figure {
+      display: flex;
+      flex-direction: column; }
+      .slider .slider-item-3 figure .mb-cstm {
+        margin-bottom: 20%; }
