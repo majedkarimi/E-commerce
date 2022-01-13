@@ -80,3 +80,13 @@ body {
       flex-direction: column; }
       .slider .slider-item-3 figure .mb-cstm {
         margin-bottom: 20%; }
+
+@media screen and (max-width: 992px) {
+  .slider .slider-item-3 {
+    width: 50%; }
+  .slider .slider-item-2 {
+    width: 50%; }
+  .slider .slider-item-1 {
+    margin-bottom: 2rem; }
+  .slider .slider-item-3 figure .mb-cstm {
+    margin-bottom: 4%; } }
