@@ -4,7 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @font-face {
   font-family: "iransans";
-  src: url("assets/fonts/IRANSansWeb.ttf"), format("trutype"), url("assets/fonts/IRANSansWeb.woff"), format("woff"); }
+  src: url("assets/fonts/IRANSansWeb.ttf"), format("trutype"),
+    url("assets/fonts/IRANSansWeb.woff"), format("woff");
+}
 
 *,
 body {
@@ -12,100 +14,154 @@ body {
   font-family: "iransans";
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 main {
-  background-color: #f8f9fa; }
+  background-color: #f8f9fa;
+}
 
 /*--------------------------------------------------------
     # Header
 ----------------------------------------------------------*/
 .header {
-  background-color: #232f3e; }
-  .header .topbar {
-    font-size: 14px; }
-    .header .topbar p {
-      padding: auto; }
-    .header .topbar nav a {
-      color: #fff;
-      border-color: #555555 !important; }
-  .header .search {
-    margin-top: 23px; }
-    .header .search .card-head-cstm {
-      padding: auto; }
-      .header .search .card-head-cstm .card-item-cstm {
-        min-width: 14rem; }
-        .header .search .card-head-cstm .card-item-cstm li {
-          list-style: none; }
-          .header .search .card-head-cstm .card-item-cstm li a {
-            font-size: 12px; }
-            .header .search .card-head-cstm .card-item-cstm li a figure {
-              width: 50px; }
-              .header .search .card-head-cstm .card-item-cstm li a figure img {
-                max-width: 100%;
-                height: auto; }
-  .header .menus {
-    padding: auto; }
-    .header .menus .dropup,
-    .header .menus .dropend,
-    .header .menus .dropdown,
-    .header .menus .dropstart {
-      position: unset; }
-    .header .menus .dropdown-menu {
-      width: 100%; }
-    .header .menus .log-in {
-      color: #ffc107 !important; }
-    .header .menus .dropdown-menu-cstm a {
-      color: #000;
-      transition: all 0.2s ease-in-out; }
-      .header .menus .dropdown-menu-cstm a:hover {
-        margin-right: 5px;
-        color: #0d6efd; }
-    .header .menus .dropdown-menu-cstm figure {
-      align-self: flex-end;
-      margin: unset; }
-      .header .menus .dropdown-menu-cstm figure img {
-        vertical-align: middle;
-        max-width: 100%;
-        height: auto; }
+  background-color: #232f3e;
+}
+.header .topbar {
+  font-size: 14px;
+}
+.header .topbar p {
+  padding: auto;
+}
+.header .topbar nav a {
+  color: #fff;
+  border-color: #555555 !important;
+}
+.header .search {
+  margin-top: 23px;
+}
+.header .search .card-head-cstm {
+  padding: auto;
+}
+.header .search .card-head-cstm .card-item-cstm {
+  min-width: 14rem;
+}
+.header .search .card-head-cstm .card-item-cstm li {
+  list-style: none;
+}
+.header .search .card-head-cstm .card-item-cstm li a {
+  font-size: 12px;
+}
+.header .search .card-head-cstm .card-item-cstm li a figure {
+  width: 50px;
+}
+.header .search .card-head-cstm .card-item-cstm li a figure img {
+  max-width: 100%;
+  height: auto;
+}
+.header .menus {
+  padding: auto;
+}
+.header .menus .dropup,
+.header .menus .dropend,
+.header .menus .dropdown,
+.header .menus .dropstart {
+  position: unset;
+}
+.header .menus .dropdown-menu {
+  width: 100%;
+}
+.header .menus .log-in {
+  color: #ffc107 !important;
+}
+.header .menus .dropdown-menu-cstm a {
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+.header .menus .dropdown-menu-cstm a:hover {
+  margin-right: 5px;
+  color: #0d6efd;
+}
+.header .menus .dropdown-menu-cstm figure {
+  align-self: flex-end;
+  margin: unset;
+}
+.header .menus .dropdown-menu-cstm figure img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
 
 /*--------------------------------------------------------
     # Slider
 ----------------------------------------------------------*/
 .slider {
-  margin-top: 2rem; }
-  .slider .slider-item-2 {
-    width: 21%; }
-  .slider .slider-item-3 {
-    width: 20%; }
-    .slider .slider-item-3 figure {
-      display: flex;
-      flex-direction: column; }
-      .slider .slider-item-3 figure .mb-cstm {
-        margin-bottom: 20%; }
+  margin-top: 2rem;
+  background-color: #fff;
+}
+.slider .slider-item-2 {
+  width: 21%;
+}
+.slider .slider-item-3 {
+  width: 20%;
+}
+.slider .slider-item-3 figure {
+  display: flex;
+  flex-direction: column;
+}
+.slider .slider-item-3 figure .mb-cstm {
+  margin-bottom: 20%;
+}
 
 @media screen and (max-width: 992px) {
   .slider .slider-item-3 {
-    width: 50%; }
+    width: 50%;
+  }
   .slider .slider-item-2 {
-    width: 50%; }
+    width: 50%;
+  }
   .slider .slider-item-1 {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+  }
   .slider .slider-item-3 figure .mb-cstm {
-    margin-bottom: 4%; } }
+    margin-bottom: 4%;
+  }
+}
 
 /*--------------------------------------------------------
     # shipping
 ----------------------------------------------------------*/
 .shipping {
-  padding: auto; }
-  .shipping figure {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .shipping figure img {
-      width: 54px; }
-    .shipping figure p {
-      font-size: 14px;
-      margin-top: 9px; }
+  background-color: #fff;
+}
+.shipping figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border-radius: 5px;
+  padding: 12px 0px;
+  margin-top: 16px;
+}
+.shipping figure img {
+  width: 41px;
+}
+.shipping figure p {
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .shipping figure img {
+    max-width: 100%;
+    height: auto;
+    width: 65px;
+  }
+  .shipping figure p {
+    font-size: 19px;
+    margin-top: 19px;
+    margin-bottom: 0;
+  }
+}

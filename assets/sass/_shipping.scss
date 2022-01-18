@@ -2,18 +2,36 @@
     # shipping
 ----------------------------------------------------------*/
 .shipping {
-  padding: auto;
+  background-color: #fff;
   figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    border-radius: 5px;
+    padding: 12px 0px;
+    margin-top: 16px;
     img {
-      width: 54px;
+      width: 41px;
     }
     p {
       font-size: 14px;
       margin-top: 9px;
+      margin-bottom: 0;
     }
   }
 }
+// responsive
+@media screen and (max-width: 600px) {
+  .shipping figure img {
+    max-width: 100%;
+    height: auto;
+    width: 65px;
+  }
+  .shipping figure p {
+    font-size: 19px;
+    margin-top: 19px;
+    margin-bottom: 0;
+  }
+} ;
