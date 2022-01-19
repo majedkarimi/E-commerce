@@ -34,4 +34,20 @@
     margin-top: 19px;
     margin-bottom: 0;
   }
-} ;
+}
+/*--------------------------------------------------------
+    # Ads
+----------------------------------------------------------*/
+.ads {
+  margin-top: 2rem;
+  figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .ads figure .w-cstm {
+    width: 369px;
+  }
+}

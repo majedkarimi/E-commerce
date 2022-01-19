@@ -19,8 +19,8 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-main{
-    background-color: #f8f9fa ;
+main {
+  background-color: #f8f9fa;
 }
 
 // colors
@@ -30,3 +30,4 @@ $bg-hedaer: #232f3e;
 @import "_header";
 @import "_slider";
 @import "_shipping";
+@import "_category";
