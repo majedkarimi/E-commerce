@@ -1,3 +1,40 @@
 /*--------------------------------------------------------
     # category
 ----------------------------------------------------------*/
+.category {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  .category-item {
+    // margin: 1rem 0;
+    a {
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      img {
+        width: 95px;
+      }
+      .title {
+        padding-left: 0 !important;
+        p {
+          font-size: 14px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:576px){
+    .category .category-item a {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .category .category-item{
+        margin-top: 1rem;
+    }
+    .category .row{
+        background-color: unset !important;
+    }
+}
