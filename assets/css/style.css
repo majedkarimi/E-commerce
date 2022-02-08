@@ -144,8 +144,7 @@ main {
     # category
 ----------------------------------------------------------*/
 .category {
-  margin-top: 2rem;
-  margin-bottom: 10rem; }
+  margin-top: 2rem; }
   .category .category-item a {
     transition: all 0.2s ease-in-out; }
     .category .category-item a:hover {
@@ -167,3 +166,9 @@ main {
     margin-top: 1rem; }
   .category .row {
     background-color: unset !important; } }
+
+/*--------------------------------------------------------
+    # flash sale
+----------------------------------------------------------*/
+.flash-sale {
+  margin: 5rem 0; }
