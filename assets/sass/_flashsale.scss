@@ -3,4 +3,60 @@
 ----------------------------------------------------------*/
 .flash-sale {
   margin: 5rem 0;
+  ul {
+    direction: ltr;
+  }
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: rgb(238, 99, 99);
+    background-color: unset;
+    border-color: unset;
+  }
+  .nav-tabs .nav-link {
+    border: 0px solid transparent;
+  }
+  .nav-link {
+    color: rgb(56, 56, 56);
+  }
+  .product-item {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    figure {
+      padding: auto;
+      img {
+        width: 300px;
+      }
+    }
+    .product-detail {
+      padding: auto;
+      a {
+        font-size: 20px;
+        color: #a750a7;
+        text-decoration: none;
+        /* font-weight: bold; */
+      }
+      .starts {
+        padding: auto;
+        i {
+          color: #68af68;
+        }
+      }
+      .price {
+        padding: auto;
+        s {
+          color: #c35454;
+        }
+        span {
+          padding: auto;
+        }
+      }
+      .timer {
+        padding: auto;
+        p {
+          padding: auto;
+        }
+      }
+    }
+  }
 }

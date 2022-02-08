@@ -172,3 +172,42 @@ main {
 ----------------------------------------------------------*/
 .flash-sale {
   margin: 5rem 0; }
+  .flash-sale ul {
+    direction: ltr; }
+  .flash-sale .nav-tabs .nav-item.show .nav-link,
+  .flash-sale .nav-tabs .nav-link.active {
+    color: #ee6363;
+    background-color: unset;
+    border-color: unset; }
+  .flash-sale .nav-tabs .nav-link {
+    border: 0px solid transparent; }
+  .flash-sale .nav-link {
+    color: #383838; }
+  .flash-sale .product-item {
+    display: flex;
+    justify-content: space-between; }
+    .flash-sale .product-item figure {
+      padding: auto; }
+      .flash-sale .product-item figure img {
+        width: 300px; }
+    .flash-sale .product-item .product-detail {
+      padding: auto; }
+      .flash-sale .product-item .product-detail a {
+        font-size: 20px;
+        color: #a750a7;
+        text-decoration: none;
+        /* font-weight: bold; */ }
+      .flash-sale .product-item .product-detail .starts {
+        padding: auto; }
+        .flash-sale .product-item .product-detail .starts i {
+          color: #68af68; }
+      .flash-sale .product-item .product-detail .price {
+        padding: auto; }
+        .flash-sale .product-item .product-detail .price s {
+          color: #c35454; }
+        .flash-sale .product-item .product-detail .price span {
+          padding: auto; }
+      .flash-sale .product-item .product-detail .timer {
+        padding: auto; }
+        .flash-sale .product-item .product-detail .timer p {
+          padding: auto; }
